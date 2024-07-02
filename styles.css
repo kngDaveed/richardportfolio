@@ -42,7 +42,7 @@ header {
 }
 
 .sub2 {
-  padding: 10rem 6rem;
+  padding: 5rem 6rem;
 }
 /* navbar section and details */
 nav.navbar {
@@ -302,5 +302,12 @@ section.bg-project {
   .arrow-down {
     top: 95%;
     left: 10%;
+  }
+}
+@media (max-width: 400px) {
+  .grid-block{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
   }
 }
